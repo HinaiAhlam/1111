@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- 
+   <input type="text" id="email" placeholder="enter your email">
+   <input type="text" id="password" placeholder="enter your password">
+  <button id="logbtn"> login</button>
+ -->
+   <div class="container py-5">
+    <div id="successmess" class="alert alert-success d-none">
+        Login Successful.
+    </div>
+
+    <div id="errmess" class="alert alert-danger d-none">
+        Invalid email or password!
+    </div>
+
+    <div id="loginForm">
+        <div class="form-group">
+            <label for="email">Enter your Email</label>
+            <input type="email" id="email" class="form-control">
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="password">Enter your password</label>
+            <input type="password" id="password" class="form-control">
+        </div>
+        <br>
+        <button id="loginbtn" type="button" class="btn btn-primary my-5">Login</button>
+    </div>
+</div>
+
+
+<!-- 
+    <p id="error-msg" style="color: red;"></p>
+    <div id="game-container" style="display: none;">
+        <h2>Math Challenge</h2>
+        <label for="num-questions">How many questions do you want?</label>
+        <input type="number" id="num-questions" min="1">
+
+        <button id="start-btn">Start</button>
+        <div id="quiz-box"></div>
+    </div> -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
